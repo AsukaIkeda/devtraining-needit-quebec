@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Create and impersonate user with the following values:
+First name = {{Parameters.First name}}
+and Last name = {{Parameters.Last name}}
+With roles: {{Parameters.Role}}</description>
+        <display_name>Create a User</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:51</sys_created_on>
+        <sys_id>b04e5b8e2ff33010cbb7ae6df699b601</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_b04e5b8e2ff33010cbb7ae6df699b601</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:51</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="Create NeedIt Module">f4e2db0a2ff33010cbb7ae6df699b61d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b04e5b8e2ff33010cbb7ae6df699b601"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b04e5b8e2ff33010cbb7ae6df699b601</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>116e5b022f373010cbb7ae6df699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <value/>
+        <variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b04e5b8e2ff33010cbb7ae6df699b601</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>156e5b022f373010cbb7ae6df699b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b04e5b8e2ff33010cbb7ae6df699b601</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>516e5b022f373010cbb7ae6df699b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <value>gem-placeholder</value>
+        <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b04e5b8e2ff33010cbb7ae6df699b601</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>5d6e5b022f373010cbb7ae6df699b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b04e5b8e2ff33010cbb7ae6df699b601</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>996e5b022f373010cbb7ae6df699b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <value>{{parameter['f4e2db0a2ff33010cbb7ae6df699b61d'].u_first_name}}</value>
+        <variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b04e5b8e2ff33010cbb7ae6df699b601</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>9d6e5b022f373010cbb7ae6df699b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b04e5b8e2ff33010cbb7ae6df699b601</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>d56e5b022f373010cbb7ae6df699b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <value>{{parameter['f4e2db0a2ff33010cbb7ae6df699b61d'].u_last_name}}</value>
+        <variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b04e5b8e2ff33010cbb7ae6df699b601"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>b04e5b8e2ff33010cbb7ae6df699b601</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>0d6e5b022f373010cbb7ae6df699b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>first_name</field>
+        <id>b04e5b8e2ff33010cbb7ae6df699b601</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>496e5b022f373010cbb7ae6df699b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value>{{parameter['f4e2db0a2ff33010cbb7ae6df699b61d'].u_first_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groups</field>
+        <id>b04e5b8e2ff33010cbb7ae6df699b601</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>c16e5b022f373010cbb7ae6df699b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>last_name</field>
+        <id>b04e5b8e2ff33010cbb7ae6df699b601</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>856e5b022f373010cbb7ae6df699b637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value>{{parameter['f4e2db0a2ff33010cbb7ae6df699b61d'].u_last_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>roles</field>
+        <id>b04e5b8e2ff33010cbb7ae6df699b601</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-15 06:46:52</sys_created_on>
+        <sys_id>0d6e5b022f373010cbb7ae6df699b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-15 06:46:52</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value>{{parameter['f4e2db0a2ff33010cbb7ae6df699b61d'].u_role}}</value>
+    </sys_element_mapping>
+</record_update>
